@@ -1,0 +1,6 @@
+framework module Pods_smart_menu_restaurantesTests {
+  umbrella header "Pods-smart-menu-restaurantesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

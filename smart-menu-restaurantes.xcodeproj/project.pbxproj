@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		028B30AB9C17E263A2955F4B /* Pods_smart_menu_restaurantesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2070505A34205C564C74101D /* Pods_smart_menu_restaurantesTests.framework */; };
+		041E2E76B127C91CACCE75D1 /* Pods_smart_menu_restaurantes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97019EA55761FB6F401D4BC /* Pods_smart_menu_restaurantes.framework */; };
 		4D1EED4422833124000CB564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EED4322833124000CB564 /* AppDelegate.swift */; };
-		4D1EED4622833124000CB564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EED4522833124000CB564 /* ViewController.swift */; };
-		4D1EED4922833124000CB564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EED4722833124000CB564 /* Main.storyboard */; };
 		4D1EED4C22833124000CB564 /* smart_menu_restaurantes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EED4A22833124000CB564 /* smart_menu_restaurantes.xcdatamodeld */; };
 		4D1EED4E22833125000CB564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EED4D22833125000CB564 /* Assets.xcassets */; };
 		4D1EED5122833125000CB564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EED4F22833125000CB564 /* LaunchScreen.storyboard */; };
 		4D1EED5C22833125000CB564 /* smart_menu_restaurantesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EED5B22833125000CB564 /* smart_menu_restaurantesTests.swift */; };
 		4D1EED6722833125000CB564 /* smart_menu_restaurantesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EED6622833125000CB564 /* smart_menu_restaurantesUITests.swift */; };
+		4DB27994228332420017F7C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB27993228332420017F7C2 /* Main.storyboard */; };
+		4DB2799E228332AD0017F7C2 /* Prato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB27996228332AD0017F7C2 /* Prato.swift */; };
+		4DB2799F228332AD0017F7C2 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB27997228332AD0017F7C2 /* Alerta.swift */; };
+		4DB279A0228332AD0017F7C2 /* Restaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB27998228332AD0017F7C2 /* Restaurante.swift */; };
+		4DB279A1228332AD0017F7C2 /* Coder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB27999228332AD0017F7C2 /* Coder.swift */; };
+		4DB279A2228332AD0017F7C2 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2799A228332AD0017F7C2 /* Globals.swift */; };
+		4DB279A3228332AD0017F7C2 /* CoreDataPratos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2799B228332AD0017F7C2 /* CoreDataPratos.swift */; };
+		4DB279A4228332AD0017F7C2 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2799C228332AD0017F7C2 /* API.swift */; };
+		4DB279A5228332AD0017F7C2 /* Pedido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB2799D228332AD0017F7C2 /* Pedido.swift */; };
+		4DB279A8228332B80017F7C2 /* AdicionarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB279A7228332B70017F7C2 /* AdicionarViewController.swift */; };
+		4DB279AB228332D60017F7C2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB279AA228332D60017F7C2 /* LoginViewController.swift */; };
+		4DB279AE228332DC0017F7C2 /* RegistrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB279AD228332DC0017F7C2 /* RegistrarViewController.swift */; };
+		4DB279B1228332E50017F7C2 /* PedidosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB279B0228332E50017F7C2 /* PedidosViewController.swift */; };
+		4DB279B4228332EF0017F7C2 /* EditarPratosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB279B3228332EF0017F7C2 /* EditarPratosViewController.swift */; };
+		4DB279BA228332FB0017F7C2 /* degrade.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB279B6228332FA0017F7C2 /* degrade.png */; };
+		4DB279BB228332FB0017F7C2 /* tela_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB279B7228332FB0017F7C2 /* tela_Logo.png */; };
+		4DB279BC228332FB0017F7C2 /* icone.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB279B8228332FB0017F7C2 /* icone.png */; };
+		4DB279BD228332FB0017F7C2 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB279B9228332FB0017F7C2 /* camera.png */; };
+		D056BF40D827B9BF0647E50D /* Pods_smart_menu_restaurantesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E714248B2EC318A042415953 /* Pods_smart_menu_restaurantesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ECA3184F33BF02ED250B9EC /* Pods-smart-menu-restaurantesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smart-menu-restaurantesUITests.debug.xcconfig"; path = "Target Support Files/Pods-smart-menu-restaurantesUITests/Pods-smart-menu-restaurantesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		14100FFE7680D695C11C4F32 /* Pods-smart-menu-restaurantesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smart-menu-restaurantesUITests.release.xcconfig"; path = "Target Support Files/Pods-smart-menu-restaurantesUITests/Pods-smart-menu-restaurantesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2070505A34205C564C74101D /* Pods_smart_menu_restaurantesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smart_menu_restaurantesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C26BF81AEAE89BCD166F9E9 /* Pods-smart-menu-restaurantes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smart-menu-restaurantes.debug.xcconfig"; path = "Target Support Files/Pods-smart-menu-restaurantes/Pods-smart-menu-restaurantes.debug.xcconfig"; sourceTree = "<group>"; };
 		4D1EED4022833123000CB564 /* smart-menu-restaurantes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smart-menu-restaurantes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1EED4322833124000CB564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D1EED4522833124000CB564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D1EED4822833124000CB564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D1EED4B22833124000CB564 /* smart_menu_restaurantes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = smart_menu_restaurantes.xcdatamodel; sourceTree = "<group>"; };
 		4D1EED4D22833125000CB564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D1EED5022833125000CB564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +70,29 @@
 		4D1EED6222833125000CB564 /* smart-menu-restaurantesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "smart-menu-restaurantesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1EED6622833125000CB564 /* smart_menu_restaurantesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smart_menu_restaurantesUITests.swift; sourceTree = "<group>"; };
 		4D1EED6822833125000CB564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB27993228332420017F7C2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4DB27996228332AD0017F7C2 /* Prato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prato.swift; sourceTree = "<group>"; };
+		4DB27997228332AD0017F7C2 /* Alerta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		4DB27998228332AD0017F7C2 /* Restaurante.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurante.swift; sourceTree = "<group>"; };
+		4DB27999228332AD0017F7C2 /* Coder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coder.swift; sourceTree = "<group>"; };
+		4DB2799A228332AD0017F7C2 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		4DB2799B228332AD0017F7C2 /* CoreDataPratos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataPratos.swift; sourceTree = "<group>"; };
+		4DB2799C228332AD0017F7C2 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		4DB2799D228332AD0017F7C2 /* Pedido.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pedido.swift; sourceTree = "<group>"; };
+		4DB279A7228332B70017F7C2 /* AdicionarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdicionarViewController.swift; sourceTree = "<group>"; };
+		4DB279AA228332D60017F7C2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4DB279AD228332DC0017F7C2 /* RegistrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrarViewController.swift; sourceTree = "<group>"; };
+		4DB279B0228332E50017F7C2 /* PedidosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedidosViewController.swift; sourceTree = "<group>"; };
+		4DB279B3228332EF0017F7C2 /* EditarPratosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditarPratosViewController.swift; sourceTree = "<group>"; };
+		4DB279B6228332FA0017F7C2 /* degrade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = degrade.png; sourceTree = "<group>"; };
+		4DB279B7228332FB0017F7C2 /* tela_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tela_Logo.png; sourceTree = "<group>"; };
+		4DB279B8228332FB0017F7C2 /* icone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icone.png; sourceTree = "<group>"; };
+		4DB279B9228332FB0017F7C2 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		A97019EA55761FB6F401D4BC /* Pods_smart_menu_restaurantes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smart_menu_restaurantes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C546EE79F04D8B9BB765CF5D /* Pods-smart-menu-restaurantes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smart-menu-restaurantes.release.xcconfig"; path = "Target Support Files/Pods-smart-menu-restaurantes/Pods-smart-menu-restaurantes.release.xcconfig"; sourceTree = "<group>"; };
+		E2C0B0A3E854835F4E316611 /* Pods-smart-menu-restaurantesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smart-menu-restaurantesTests.release.xcconfig"; path = "Target Support Files/Pods-smart-menu-restaurantesTests/Pods-smart-menu-restaurantesTests.release.xcconfig"; sourceTree = "<group>"; };
+		E714248B2EC318A042415953 /* Pods_smart_menu_restaurantesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smart_menu_restaurantesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20A0A5A22CBD28C0449AC37 /* Pods-smart-menu-restaurantesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smart-menu-restaurantesTests.debug.xcconfig"; path = "Target Support Files/Pods-smart-menu-restaurantesTests/Pods-smart-menu-restaurantesTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041E2E76B127C91CACCE75D1 /* Pods_smart_menu_restaurantes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028B30AB9C17E263A2955F4B /* Pods_smart_menu_restaurantesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D056BF40D827B9BF0647E50D /* Pods_smart_menu_restaurantesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +130,8 @@
 				4D1EED5A22833125000CB564 /* smart-menu-restaurantesTests */,
 				4D1EED6522833125000CB564 /* smart-menu-restaurantesUITests */,
 				4D1EED4122833123000CB564 /* Products */,
+				76360B1341EA6764CBD389D8 /* Pods */,
+				88636C680FF6B96532BA8504 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +148,17 @@
 		4D1EED4222833123000CB564 /* smart-menu-restaurantes */ = {
 			isa = PBXGroup;
 			children = (
-				4D1EED4322833124000CB564 /* AppDelegate.swift */,
-				4D1EED4522833124000CB564 /* ViewController.swift */,
-				4D1EED4722833124000CB564 /* Main.storyboard */,
-				4D1EED4D22833125000CB564 /* Assets.xcassets */,
+				4DB27995228332AD0017F7C2 /* Models */,
+				4DB279A9228332D60017F7C2 /* Login */,
+				4DB279AC228332DC0017F7C2 /* Registrar */,
+				4DB279AF228332E50017F7C2 /* Pedidos */,
+				4DB279B2228332EF0017F7C2 /* Editar Pratos */,
+				4DB279A6228332B70017F7C2 /* Adicionar */,
+				4DB27993228332420017F7C2 /* Main.storyboard */,
 				4D1EED4F22833125000CB564 /* LaunchScreen.storyboard */,
+				4DB279B5228332FA0017F7C2 /* Assets */,
+				4D1EED4D22833125000CB564 /* Assets.xcassets */,
+				4D1EED4322833124000CB564 /* AppDelegate.swift */,
 				4D1EED5222833125000CB564 /* Info.plist */,
 				4D1EED4A22833124000CB564 /* smart_menu_restaurantes.xcdatamodeld */,
 			);
@@ -128,6 +183,95 @@
 			path = "smart-menu-restaurantesUITests";
 			sourceTree = "<group>";
 		};
+		4DB27995228332AD0017F7C2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DB27996228332AD0017F7C2 /* Prato.swift */,
+				4DB27997228332AD0017F7C2 /* Alerta.swift */,
+				4DB27998228332AD0017F7C2 /* Restaurante.swift */,
+				4DB27999228332AD0017F7C2 /* Coder.swift */,
+				4DB2799A228332AD0017F7C2 /* Globals.swift */,
+				4DB2799B228332AD0017F7C2 /* CoreDataPratos.swift */,
+				4DB2799C228332AD0017F7C2 /* API.swift */,
+				4DB2799D228332AD0017F7C2 /* Pedido.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4DB279A6228332B70017F7C2 /* Adicionar */ = {
+			isa = PBXGroup;
+			children = (
+				4DB279A7228332B70017F7C2 /* AdicionarViewController.swift */,
+			);
+			path = Adicionar;
+			sourceTree = "<group>";
+		};
+		4DB279A9228332D60017F7C2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4DB279AA228332D60017F7C2 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4DB279AC228332DC0017F7C2 /* Registrar */ = {
+			isa = PBXGroup;
+			children = (
+				4DB279AD228332DC0017F7C2 /* RegistrarViewController.swift */,
+			);
+			path = Registrar;
+			sourceTree = "<group>";
+		};
+		4DB279AF228332E50017F7C2 /* Pedidos */ = {
+			isa = PBXGroup;
+			children = (
+				4DB279B0228332E50017F7C2 /* PedidosViewController.swift */,
+			);
+			path = Pedidos;
+			sourceTree = "<group>";
+		};
+		4DB279B2228332EF0017F7C2 /* Editar Pratos */ = {
+			isa = PBXGroup;
+			children = (
+				4DB279B3228332EF0017F7C2 /* EditarPratosViewController.swift */,
+			);
+			path = "Editar Pratos";
+			sourceTree = "<group>";
+		};
+		4DB279B5228332FA0017F7C2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4DB279B6228332FA0017F7C2 /* degrade.png */,
+				4DB279B7228332FB0017F7C2 /* tela_Logo.png */,
+				4DB279B8228332FB0017F7C2 /* icone.png */,
+				4DB279B9228332FB0017F7C2 /* camera.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		76360B1341EA6764CBD389D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C26BF81AEAE89BCD166F9E9 /* Pods-smart-menu-restaurantes.debug.xcconfig */,
+				C546EE79F04D8B9BB765CF5D /* Pods-smart-menu-restaurantes.release.xcconfig */,
+				F20A0A5A22CBD28C0449AC37 /* Pods-smart-menu-restaurantesTests.debug.xcconfig */,
+				E2C0B0A3E854835F4E316611 /* Pods-smart-menu-restaurantesTests.release.xcconfig */,
+				0ECA3184F33BF02ED250B9EC /* Pods-smart-menu-restaurantesUITests.debug.xcconfig */,
+				14100FFE7680D695C11C4F32 /* Pods-smart-menu-restaurantesUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88636C680FF6B96532BA8504 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A97019EA55761FB6F401D4BC /* Pods_smart_menu_restaurantes.framework */,
+				2070505A34205C564C74101D /* Pods_smart_menu_restaurantesTests.framework */,
+				E714248B2EC318A042415953 /* Pods_smart_menu_restaurantesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D1EED6B22833125000CB564 /* Build configuration list for PBXNativeTarget "smart-menu-restaurantes" */;
 			buildPhases = (
+				B3CD14BA1421C3B40FEED17F /* [CP] Check Pods Manifest.lock */,
 				4D1EED3C22833123000CB564 /* Sources */,
 				4D1EED3D22833123000CB564 /* Frameworks */,
 				4D1EED3E22833123000CB564 /* Resources */,
+				44AD6439C2A67E13201219C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +298,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D1EED6E22833125000CB564 /* Build configuration list for PBXNativeTarget "smart-menu-restaurantesTests" */;
 			buildPhases = (
+				01B00323B7526D81216D5BE4 /* [CP] Check Pods Manifest.lock */,
 				4D1EED5322833125000CB564 /* Sources */,
 				4D1EED5422833125000CB564 /* Frameworks */,
 				4D1EED5522833125000CB564 /* Resources */,
@@ -170,6 +317,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D1EED7122833125000CB564 /* Build configuration list for PBXNativeTarget "smart-menu-restaurantesUITests" */;
 			buildPhases = (
+				37F7185006FE865CCBAD22F5 /* [CP] Check Pods Manifest.lock */,
 				4D1EED5E22833125000CB564 /* Sources */,
 				4D1EED5F22833125000CB564 /* Frameworks */,
 				4D1EED6022833125000CB564 /* Resources */,
@@ -232,9 +380,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DB27994228332420017F7C2 /* Main.storyboard in Resources */,
+				4DB279BD228332FB0017F7C2 /* camera.png in Resources */,
 				4D1EED5122833125000CB564 /* LaunchScreen.storyboard in Resources */,
+				4DB279BC228332FB0017F7C2 /* icone.png in Resources */,
+				4DB279BB228332FB0017F7C2 /* tela_Logo.png in Resources */,
+				4DB279BA228332FB0017F7C2 /* degrade.png in Resources */,
 				4D1EED4E22833125000CB564 /* Assets.xcassets in Resources */,
-				4D1EED4922833124000CB564 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +406,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01B00323B7526D81216D5BE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smart-menu-restaurantesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37F7185006FE865CCBAD22F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smart-menu-restaurantesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44AD6439C2A67E13201219C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-smart-menu-restaurantes/Pods-smart-menu-restaurantes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-smart-menu-restaurantes/Pods-smart-menu-restaurantes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CD14BA1421C3B40FEED17F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-smart-menu-restaurantes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4D1EED3C22833123000CB564 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1EED4622833124000CB564 /* ViewController.swift in Sources */,
+				4DB279A5228332AD0017F7C2 /* Pedido.swift in Sources */,
+				4DB279A1228332AD0017F7C2 /* Coder.swift in Sources */,
+				4DB279AE228332DC0017F7C2 /* RegistrarViewController.swift in Sources */,
+				4DB279A3228332AD0017F7C2 /* CoreDataPratos.swift in Sources */,
+				4DB2799E228332AD0017F7C2 /* Prato.swift in Sources */,
+				4DB279B1228332E50017F7C2 /* PedidosViewController.swift in Sources */,
+				4DB2799F228332AD0017F7C2 /* Alerta.swift in Sources */,
+				4DB279A8228332B80017F7C2 /* AdicionarViewController.swift in Sources */,
+				4DB279B4228332EF0017F7C2 /* EditarPratosViewController.swift in Sources */,
+				4DB279A4228332AD0017F7C2 /* API.swift in Sources */,
+				4DB279A0228332AD0017F7C2 /* Restaurante.swift in Sources */,
+				4DB279A2228332AD0017F7C2 /* Globals.swift in Sources */,
 				4D1EED4422833124000CB564 /* AppDelegate.swift in Sources */,
+				4DB279AB228332D60017F7C2 /* LoginViewController.swift in Sources */,
 				4D1EED4C22833124000CB564 /* smart_menu_restaurantes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +556,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4D1EED4722833124000CB564 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D1EED4822833124000CB564 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D1EED4F22833125000CB564 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -434,6 +685,7 @@
 		};
 		4D1EED6C22833125000CB564 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C26BF81AEAE89BCD166F9E9 /* Pods-smart-menu-restaurantes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +704,7 @@
 		};
 		4D1EED6D22833125000CB564 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C546EE79F04D8B9BB765CF5D /* Pods-smart-menu-restaurantes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +723,7 @@
 		};
 		4D1EED6F22833125000CB564 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20A0A5A22CBD28C0449AC37 /* Pods-smart-menu-restaurantesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +745,7 @@
 		};
 		4D1EED7022833125000CB564 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C0B0A3E854835F4E316611 /* Pods-smart-menu-restaurantesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +767,7 @@
 		};
 		4D1EED7222833125000CB564 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ECA3184F33BF02ED250B9EC /* Pods-smart-menu-restaurantesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +788,7 @@
 		};
 		4D1EED7322833125000CB564 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14100FFE7680D695C11C4F32 /* Pods-smart-menu-restaurantesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

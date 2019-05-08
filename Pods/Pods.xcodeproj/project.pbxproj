@@ -1,0 +1,1525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01C9FBB8BBCD0CDAF35A5F4B399F4141 /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = D09A241BF408B309610B0AB9CAFA8280 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		059D92B7BBFBEC53E9A3B6E11C5C3B3A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8B23B89A870C7F43CF4E81CBB15922 /* Response.swift */; };
+		09F255259DEC047AF2BAE4FAF4FA4DF5 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DDE3B15B3ABA44441F909D962CFD4E /* IQUIView+Hierarchy.m */; };
+		0A39AF55285A3A4F7CBABB6D822FA4A3 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF85F1924A1C4A6A6F22BDE096F3BCAC /* Alamofire.swift */; };
+		117C5B8004CF03B397311EA1B2A3BC2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		120F590FFAD7554AD1D56D55E4AF1193 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895D4FB6D4B266B01B2CAFADC364F06 /* IQTitleBarButtonItem.m */; };
+		15CFFF1B6912CF0A4A9FC87177313F49 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = A123A7C21D223995628002FE85B59427 /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B7E8964B88BC6250C142A3989723EFE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91648AF9D1A0F7B9334557A6375BAF91 /* SwiftyJSON.swift */; };
+		1D29D2ACADF961F69D32B06FA6A09E28 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AF6E5849A4FA40010B2824EBD3CFEE /* Notifications.swift */; };
+		219435F7A3586FC5774B414BABBAC8FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		22213D583E7109C95416724F6BE5A0A1 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F946C83AA93D411E3D74C617A029920A /* IQUIViewController+Additions.m */; };
+		2E9B698B64CD7E527A270F3323A253A1 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F007DB53502FA0B78528614EFEB90E6 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32AA6E4445E55DA5C2BDA600AB510771 /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0226B4BE1F4E82158327D412B1E1747E /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34E0A7436BBBE95F85332D24C64FFCFD /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = F448A08741145E2E42F719DBF74410F6 /* IQToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		355C18EEC82624A06A6CC93965258E33 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7403377CBEA9479D4B9B10D57A3355D /* Request.swift */; };
+		37418C1E96FADE0D61C8484A2ECD6504 /* Pods-smart-menu-restaurantesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94159407A3D6949F2223ABA13DA0E7A9 /* Pods-smart-menu-restaurantesTests-dummy.m */; };
+		3BD1DAFE1F3E6C9E4EB0F2099B6D6FA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		3E0749AF6C51BCF0E4A41CF1D6A76FED /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBB6C0B333F2CA89BA70B9ED6B7D4E4 /* DispatchQueue+Alamofire.swift */; };
+		46C511691E35649F1A4D99764A44534B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		4704532EBB5B25DCD6AAD3F4DF99C65F /* IQKeyboardManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8338F8E923C4832B68135EC7064F15E5 /* IQKeyboardManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		480AC3F85973AEA32D555B23C0ACE2D3 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 353CD303AEE0FE505D75C70F9D410925 /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B542035D10F64D29C733ACB08036D0C /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58AAC9BED5ADEA23A29B1D6F725F0EA5 /* SwiftyJSON-dummy.m */; };
+		4C6C22D58D624C082195E2B7B2518584 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D4CB7C89EC405CCD81D392DF120BC9 /* IQPreviousNextView.m */; };
+		59636A595CA6A792AC74DCACF1C24A22 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A4689E1BC2C3654B97EA0A76BA8B138C /* IQKeyboardManager.bundle */; };
+		5965A6464373095B0A10A572FAE971D3 /* Pods-smart-menu-restaurantes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B0FF9404C41FD3848ED3F1A25D1CE9 /* Pods-smart-menu-restaurantes-dummy.m */; };
+		59E58C345D7EA82F8B5DAC3B7970B357 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF2318602AE9888B3535B21D32BECA8C /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E53DC072ACDDF44EAEB8EDD54D0B563 /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B9FD0D84429B37A1D195C2AB006EB3 /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60B6C2A003864AAD3A426448152F67BE /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE99BD9766480DD95CE3395444FF00 /* Timeline.swift */; };
+		6D8B864AF269266C996B58CB4E827745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		6E4B02082F81F5A1FAB6916235749B63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		6EFD003458AE7F689DEA720A2030C261 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE1B3E919F1135D0291D34FB0BAFC60 /* ResponseSerialization.swift */; };
+		700D3D95AF9520CB227846DFD943A2DA /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAE24D43A2F1AB878015BE59CC7C729 /* ParameterEncoding.swift */; };
+		73AB05789A4982944AF68DBD013E3EB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1585B922E7BA5EA41B6A372EEE9469 /* NetworkReachabilityManager.swift */; };
+		772911DA6E33D1CBBC30131B7C8BDBB3 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3CD5B85011745A88B6B025B107518B /* Alamofire-dummy.m */; };
+		77E8F0EB9FFBE2E3EB0C77095C644606 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950C020B06A685009B364A80DFAF9180 /* TaskDelegate.swift */; };
+		7E3538A6992A38276764936A9733493D /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E684E03A25E9C81F3E83C3D3AC10FD6F /* AFError.swift */; };
+		7EE8D883EFC48DA04B612B3EC380F11C /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1923E3B3B0059A4D7C792C498F613D12 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D2A6A90A6DDAF75EA52D471258545CC /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187226462E67618DB3CB66EF704CCB2F /* ServerTrustPolicy.swift */; };
+		8F9F7188D5376303A8B68C7C12621AD7 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = A3682D2EBDA1F03F6724B77328D5848C /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91EE37D078561461B003A349CA6BEB27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */; };
+		9259561CF018721E19E2C3A48087D39F /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEFBC1456562F2B7AC882A34458B23 /* IQKeyboardManager.m */; };
+		93C81D7CCAA0B608DCEFD5C62AC14191 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 602262919F118E9A6666D4C59EC2A778 /* IQUIScrollView+Additions.m */; };
+		9B6A2EA62AA29811BC0A0DCC64DA8E5F /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 51DB6EF8D82ED3172B57E42348C969EB /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E70FAB137D127A55A1841B8F739664B /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F620B10ACC301D591321239DE5C5585A /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EC41966B261DCE460BCDE5124A1DBE /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB868390C2DB079964134549BE291F4C /* SessionDelegate.swift */; };
+		A76D80A2F71C56821F6F13C3787B68BA /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A3692BACD36CA6C86AEE0BB0B52408C2 /* IQToolbar.m */; };
+		A996F89D3BD4C9E71DDF756A3C245528 /* IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F21C42E630E2FC3D98EA21AD822E4B /* IQKeyboardManager-dummy.m */; };
+		AA56769D8733D3F3E7976742D5ABA998 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CE058ABD5EEC93B2A79AC8E77CACC0 /* Validation.swift */; };
+		AA9AF3D263E56AC95AE55D4560913445 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7691788432BF44D97631358BB27639 /* IQNSArray+Sort.m */; };
+		AEA829AB1A8AF2AD077A808AED6B178A /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5652E52C5194D53A677AB8B1F49A2043 /* MultipartFormData.swift */; };
+		B6F6E4CC26451E91B59FAE0F6841DC1F /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E254D506322CD70FB69CD2E136995E4 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6066849A512B018D292C667E952870 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E0AF54F33BDD93CAE43E150321498F /* IQUIView+IQKeyboardToolbar.m */; };
+		C49E1DB430E1A451BBDE299166CCDF3C /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 72A2009C88D20068E979BF2FE433BBC3 /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB1F9AB55BC15A210AE933B69E8E4F46 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21988ADEA33E6274B47D763CFC1AB575 /* IQTextView.m */; };
+		CC1D5F1C09C4C1BD14278F7E549663BA /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B89E15A1692CFB7F13FE4474835E77E /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDCA9F7230128C4D0E0B39D8737E0489 /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = D6106194AC32593D71B02E73992DA012 /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD54BFEFB1C9860D54B2C79CB08ECCC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */; };
+		CEB716F20FA819621DF25E3E4556FA6B /* Pods-smart-menu-restaurantesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21EEA418F3882C7DC6F58478550EE59A /* Pods-smart-menu-restaurantesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CED5E7B4BE3414AE286AFF69053D6913 /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E83021411D8A84BAFEC3E9529BC34 /* IQKeyboardReturnKeyHandler.m */; };
+		D24BE6255AF90B6F64B07CFA6BEA3925 /* Pods-smart-menu-restaurantesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A2429D96C33ABF83A048FBE23702EF /* Pods-smart-menu-restaurantesUITests-dummy.m */; };
+		D3FA0AA634AAEA99AB3FABC36BB4958C /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86693C0D78BE5328115CA48BB2AB8D6F /* SessionManager.swift */; };
+		DB7A699E07DB8A410D99562D92249DC0 /* Pods-smart-menu-restaurantesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB41810C224FEE72540BAA16C3F2AB94 /* Pods-smart-menu-restaurantesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E17ABB7E67E725F28FBCC058AA5B258D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */; };
+		E65F2FE203594073F5E17979B1FEE418 /* Pods-smart-menu-restaurantes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F702BD3E6B9C71B2F7A8AD188EA7669E /* Pods-smart-menu-restaurantes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB0DD8CEA1A69867A30267439C970440 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51155AB5DFC0206AF70B347D0ECC0694 /* Result.swift */; };
+		F0F69E7297420DDEA6EE2915D5EF58CA /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A4BF5F033196BBCD200B0FBCCCB0DDE /* IQTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F258EB026BAB137E64677B793E952659 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E5DB46A0074445B2E920F552BB6C10 /* IQUITextFieldView+Additions.m */; };
+		FA0858611CF534111166E43492A3E754 /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C96ECE8F57B7B8F7E16C05D6AC5141 /* IQBarButtonItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		093E16CFEAFEED349BEB2A50C4751D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C54719672102F0948B0AE7F461B3033;
+			remoteInfo = "Pods-smart-menu-restaurantes";
+		};
+		2C818FE904B87ACE2324F481C9B4AE58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0537A20627C7A30E67FCF76301D5D8;
+			remoteInfo = IQKeyboardManager;
+		};
+		3A5E9F7D9F200F18D3FCEA7723D2BA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3383968E74B5371B20BB519B170DC7FD;
+			remoteInfo = Alamofire;
+		};
+		A0F32C5A1FBB3266B6B75776B2428D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290E381460EF64221767DFFF13650171;
+			remoteInfo = SwiftyJSON;
+		};
+		A2E98BFAD491A32D2C210A2D161B18D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C54719672102F0948B0AE7F461B3033;
+			remoteInfo = "Pods-smart-menu-restaurantes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010324CAA366ABF9839F2F7F00E59557 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		0226B4BE1F4E82158327D412B1E1747E /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		02C8964BE6EEC9605ED4CB5E7A0A8B9A /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		04DDE3B15B3ABA44441F909D962CFD4E /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		0B3D58024FBDF871F50D90C5B70B432D /* Pods-smart-menu-restaurantes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smart-menu-restaurantes-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B89E15A1692CFB7F13FE4474835E77E /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQPreviousNextView.h; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.h; sourceTree = "<group>"; };
+		0BC93F4CAC990EAFAC080C14B4206F20 /* Pods-smart-menu-restaurantesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-smart-menu-restaurantesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C2F6950D74C5DE7DB9E18A87E85DD08 /* Pods_smart_menu_restaurantes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_smart_menu_restaurantes.framework; path = "Pods-smart-menu-restaurantes.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		187226462E67618DB3CB66EF704CCB2F /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		1895D4FB6D4B266B01B2CAFADC364F06 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		1923E3B3B0059A4D7C792C498F613D12 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		19DF6DDF6A99F2E78DDF170AB71E97CC /* Pods-smart-menu-restaurantesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smart-menu-restaurantesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		209A17B63C7154DEBC7799E09E191086 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		21988ADEA33E6274B47D763CFC1AB575 /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyboardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		21EEA418F3882C7DC6F58478550EE59A /* Pods-smart-menu-restaurantesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-smart-menu-restaurantesTests-umbrella.h"; sourceTree = "<group>"; };
+		22065C45F29B162BF9B76305F1C9224E /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		2B03AC1273EA17B8054065F631EDBF24 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		2EE1B3E919F1135D0291D34FB0BAFC60 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		34601421B905644507DFFEC2A12CE38C /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		353CD303AEE0FE505D75C70F9D410925 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		35E0AF54F33BDD93CAE43E150321498F /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyboardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		3801F0DBD0227D3AA6905D2FC0A44F0B /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		3C1532D0172D0D1693AA66060020313E /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3CD5B85011745A88B6B025B107518B /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		3DFEFBC1456562F2B7AC882A34458B23 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyboardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		43AE99BD9766480DD95CE3395444FF00 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		47A89F3A0C7F9067134A3B69A774E214 /* Pods-smart-menu-restaurantes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smart-menu-restaurantes.debug.xcconfig"; sourceTree = "<group>"; };
+		4A4BF5F033196BBCD200B0FBCCCB0DDE /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyboardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C195730AEE609BC030874DB36A72A5D /* IQKeyboardManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManager.modulemap; sourceTree = "<group>"; };
+		4E254D506322CD70FB69CD2E136995E4 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		4EB30555AE27A17DE00C82292692C67C /* Pods-smart-menu-restaurantesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smart-menu-restaurantesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		51155AB5DFC0206AF70B347D0ECC0694 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		51DB6EF8D82ED3172B57E42348C969EB /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyboardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		52F51B8D35B848E0F8AC4143ECA6FEBF /* Pods-smart-menu-restaurantes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smart-menu-restaurantes.release.xcconfig"; sourceTree = "<group>"; };
+		54E0D5D3B04EF690BD601DF0E5C8C86D /* IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManager.xcconfig; sourceTree = "<group>"; };
+		55682B88190CB596E9CBA75B9E2FA55E /* IQKeyboardManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManager.framework; path = IQKeyboardManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5652E52C5194D53A677AB8B1F49A2043 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		58AAC9BED5ADEA23A29B1D6F725F0EA5 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		58CE058ABD5EEC93B2A79AC8E77CACC0 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		5FBB6C0B333F2CA89BA70B9ED6B7D4E4 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		602262919F118E9A6666D4C59EC2A778 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIScrollView+Additions.m"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		606F1F131720F55952155E8C15400284 /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
+		64174280627B9AF6007D1C31EBD7B0A1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B1585B922E7BA5EA41B6A372EEE9469 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		72A2009C88D20068E979BF2FE433BBC3 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		781D2FA37A37E915B26266DDE6CFA2AB /* Pods_smart_menu_restaurantesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_smart_menu_restaurantesTests.framework; path = "Pods-smart-menu-restaurantesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791EFB41DA1674E1114B089F94C3B8A2 /* Pods-smart-menu-restaurantesUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smart-menu-restaurantesUITests-Info.plist"; sourceTree = "<group>"; };
+		8051DFD0602E355654EF020136E81218 /* Pods-smart-menu-restaurantes-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smart-menu-restaurantes-Info.plist"; sourceTree = "<group>"; };
+		8338F8E923C4832B68135EC7064F15E5 /* IQKeyboardManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-umbrella.h"; sourceTree = "<group>"; };
+		845E83021411D8A84BAFEC3E9529BC34 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		85280104D759DCBB8210E3853E3A2850 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		86693C0D78BE5328115CA48BB2AB8D6F /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		87B9FD0D84429B37A1D195C2AB006EB3 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		8B4603456804F12B34D218930637BB77 /* Pods-smart-menu-restaurantesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smart-menu-restaurantesTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E697D53D36DBC161E259F90B840C756 /* Pods-smart-menu-restaurantes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-smart-menu-restaurantes.modulemap"; sourceTree = "<group>"; };
+		8EAE24D43A2F1AB878015BE59CC7C729 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		8F007DB53502FA0B78528614EFEB90E6 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyboardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		91648AF9D1A0F7B9334557A6375BAF91 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		91C9519244901D90AC782B8CECC7FBF9 /* Pods-smart-menu-restaurantesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-smart-menu-restaurantesTests.modulemap"; sourceTree = "<group>"; };
+		93A2429D96C33ABF83A048FBE23702EF /* Pods-smart-menu-restaurantesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-smart-menu-restaurantesUITests-dummy.m"; sourceTree = "<group>"; };
+		94159407A3D6949F2223ABA13DA0E7A9 /* Pods-smart-menu-restaurantesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-smart-menu-restaurantesTests-dummy.m"; sourceTree = "<group>"; };
+		950C020B06A685009B364A80DFAF9180 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		99D4CB7C89EC405CCD81D392DF120BC9 /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQPreviousNextView.m; path = IQKeyboardManager/IQToolbar/IQPreviousNextView.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC62FC5532449766EE6435ADA8F2431 /* Pods-smart-menu-restaurantes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-smart-menu-restaurantes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A123A7C21D223995628002FE85B59427 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyboardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		A36174FA625FD396BBF13E6B43370825 /* Pods-smart-menu-restaurantesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smart-menu-restaurantesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3682D2EBDA1F03F6724B77328D5848C /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		A3692BACD36CA6C86AEE0BB0B52408C2 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyboardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		A4689E1BC2C3654B97EA0A76BA8B138C /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		A81D70269BD2965FBAB30A29340DC9DC /* Pods-smart-menu-restaurantesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smart-menu-restaurantesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA6C11041FA337F69022D37837B29163 /* Pods-smart-menu-restaurantesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-smart-menu-restaurantesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AE7691788432BF44D97631358BB27639 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyboardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		B27D52124816ACBA670E628E8425DAB6 /* Pods-smart-menu-restaurantesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-smart-menu-restaurantesUITests.modulemap"; sourceTree = "<group>"; };
+		B5B0FF9404C41FD3848ED3F1A25D1CE9 /* Pods-smart-menu-restaurantes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-smart-menu-restaurantes-dummy.m"; sourceTree = "<group>"; };
+		BB868390C2DB079964134549BE291F4C /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		BF85F1924A1C4A6A6F22BDE096F3BCAC /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		C30FE541609FC51E9ABDE9124CCD4CF6 /* Pods-smart-menu-restaurantes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-smart-menu-restaurantes-frameworks.sh"; sourceTree = "<group>"; };
+		C3BAE6EDEDE485B04A4ABCC30C63239A /* IQKeyboardManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManager-Info.plist"; sourceTree = "<group>"; };
+		D09A241BF408B309610B0AB9CAFA8280 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		D2F21C42E630E2FC3D98EA21AD822E4B /* IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		D6106194AC32593D71B02E73992DA012 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIScrollView+Additions.h"; path = "IQKeyboardManager/Categories/IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		D7403377CBEA9479D4B9B10D57A3355D /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		DB5DCBA56ADCE44E0388300819D0E932 /* Pods_smart_menu_restaurantesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_smart_menu_restaurantesUITests.framework; path = "Pods-smart-menu-restaurantesUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AF6E5849A4FA40010B2824EBD3CFEE /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		E684E03A25E9C81F3E83C3D3AC10FD6F /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		EA165882F3C51848F3899233F9C497F7 /* Pods-smart-menu-restaurantesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-smart-menu-restaurantesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB41810C224FEE72540BAA16C3F2AB94 /* Pods-smart-menu-restaurantesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-smart-menu-restaurantesUITests-umbrella.h"; sourceTree = "<group>"; };
+		EF2318602AE9888B3535B21D32BECA8C /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		F3B23A053D37866A95FC42E008F88401 /* Pods-smart-menu-restaurantesTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-smart-menu-restaurantesTests-Info.plist"; sourceTree = "<group>"; };
+		F448A08741145E2E42F719DBF74410F6 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyboardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		F620B10ACC301D591321239DE5C5585A /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyboardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		F6E5DB46A0074445B2E920F552BB6C10 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyboardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		F702BD3E6B9C71B2F7A8AD188EA7669E /* Pods-smart-menu-restaurantes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-smart-menu-restaurantes-umbrella.h"; sourceTree = "<group>"; };
+		F946C83AA93D411E3D74C617A029920A /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyboardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		F9C96ECE8F57B7B8F7E16C05D6AC5141 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyboardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		FB8B23B89A870C7F43CF4E81CBB15922 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23A795610BECAEFC9CEB98294E0A39C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8B864AF269266C996B58CB4E827745 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DEFE49E2DCA6955E27028BC6D1092F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17ABB7E67E725F28FBCC058AA5B258D /* CoreGraphics.framework in Frameworks */,
+				46C511691E35649F1A4D99764A44534B /* Foundation.framework in Frameworks */,
+				CDD54BFEFB1C9860D54B2C79CB08ECCC /* QuartzCore.framework in Frameworks */,
+				91EE37D078561461B003A349CA6BEB27 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638E41BFDEFA96C2C841F1D848FA8968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219435F7A3586FC5774B414BABBAC8FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70159AEC81EB23F47A57AD2DA9C10048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117C5B8004CF03B397311EA1B2A3BC2D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7C3C95124A3552F70FCA085BC3D006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4B02082F81F5A1FAB6916235749B63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1626ADC3A7EC435D2722B3173355D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD1DAFE1F3E6C9E4EB0F2099B6D6FA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C0BC296618B45CF85F56835DAB8589 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				85280104D759DCBB8210E3853E3A2850 /* SwiftyJSON.modulemap */,
+				010324CAA366ABF9839F2F7F00E59557 /* SwiftyJSON.xcconfig */,
+				58AAC9BED5ADEA23A29B1D6F725F0EA5 /* SwiftyJSON-dummy.m */,
+				606F1F131720F55952155E8C15400284 /* SwiftyJSON-Info.plist */,
+				209A17B63C7154DEBC7799E09E191086 /* SwiftyJSON-prefix.pch */,
+				EF2318602AE9888B3535B21D32BECA8C /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		4D9BF63006DDF395B3CB8EDD8074287A /* Pods-smart-menu-restaurantesTests */ = {
+			isa = PBXGroup;
+			children = (
+				91C9519244901D90AC782B8CECC7FBF9 /* Pods-smart-menu-restaurantesTests.modulemap */,
+				0BC93F4CAC990EAFAC080C14B4206F20 /* Pods-smart-menu-restaurantesTests-acknowledgements.markdown */,
+				A81D70269BD2965FBAB30A29340DC9DC /* Pods-smart-menu-restaurantesTests-acknowledgements.plist */,
+				94159407A3D6949F2223ABA13DA0E7A9 /* Pods-smart-menu-restaurantesTests-dummy.m */,
+				F3B23A053D37866A95FC42E008F88401 /* Pods-smart-menu-restaurantesTests-Info.plist */,
+				21EEA418F3882C7DC6F58478550EE59A /* Pods-smart-menu-restaurantesTests-umbrella.h */,
+				A36174FA625FD396BBF13E6B43370825 /* Pods-smart-menu-restaurantesTests.debug.xcconfig */,
+				8B4603456804F12B34D218930637BB77 /* Pods-smart-menu-restaurantesTests.release.xcconfig */,
+			);
+			name = "Pods-smart-menu-restaurantesTests";
+			path = "Target Support Files/Pods-smart-menu-restaurantesTests";
+			sourceTree = "<group>";
+		};
+		517B63F8BEA833ABF88C6C4863986C79 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				E684E03A25E9C81F3E83C3D3AC10FD6F /* AFError.swift */,
+				BF85F1924A1C4A6A6F22BDE096F3BCAC /* Alamofire.swift */,
+				5FBB6C0B333F2CA89BA70B9ED6B7D4E4 /* DispatchQueue+Alamofire.swift */,
+				5652E52C5194D53A677AB8B1F49A2043 /* MultipartFormData.swift */,
+				6B1585B922E7BA5EA41B6A372EEE9469 /* NetworkReachabilityManager.swift */,
+				E4AF6E5849A4FA40010B2824EBD3CFEE /* Notifications.swift */,
+				8EAE24D43A2F1AB878015BE59CC7C729 /* ParameterEncoding.swift */,
+				D7403377CBEA9479D4B9B10D57A3355D /* Request.swift */,
+				FB8B23B89A870C7F43CF4E81CBB15922 /* Response.swift */,
+				2EE1B3E919F1135D0291D34FB0BAFC60 /* ResponseSerialization.swift */,
+				51155AB5DFC0206AF70B347D0ECC0694 /* Result.swift */,
+				187226462E67618DB3CB66EF704CCB2F /* ServerTrustPolicy.swift */,
+				BB868390C2DB079964134549BE291F4C /* SessionDelegate.swift */,
+				86693C0D78BE5328115CA48BB2AB8D6F /* SessionManager.swift */,
+				950C020B06A685009B364A80DFAF9180 /* TaskDelegate.swift */,
+				43AE99BD9766480DD95CE3395444FF00 /* Timeline.swift */,
+				58CE058ABD5EEC93B2A79AC8E77CACC0 /* Validation.swift */,
+				7FD3658820B36EC9121B795F599F04B7 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		6711DBD8EEF8FBFCC0D3E898D4E8B42A /* Pods-smart-menu-restaurantes */ = {
+			isa = PBXGroup;
+			children = (
+				8E697D53D36DBC161E259F90B840C756 /* Pods-smart-menu-restaurantes.modulemap */,
+				9EC62FC5532449766EE6435ADA8F2431 /* Pods-smart-menu-restaurantes-acknowledgements.markdown */,
+				0B3D58024FBDF871F50D90C5B70B432D /* Pods-smart-menu-restaurantes-acknowledgements.plist */,
+				B5B0FF9404C41FD3848ED3F1A25D1CE9 /* Pods-smart-menu-restaurantes-dummy.m */,
+				C30FE541609FC51E9ABDE9124CCD4CF6 /* Pods-smart-menu-restaurantes-frameworks.sh */,
+				8051DFD0602E355654EF020136E81218 /* Pods-smart-menu-restaurantes-Info.plist */,
+				F702BD3E6B9C71B2F7A8AD188EA7669E /* Pods-smart-menu-restaurantes-umbrella.h */,
+				47A89F3A0C7F9067134A3B69A774E214 /* Pods-smart-menu-restaurantes.debug.xcconfig */,
+				52F51B8D35B848E0F8AC4143ECA6FEBF /* Pods-smart-menu-restaurantes.release.xcconfig */,
+			);
+			name = "Pods-smart-menu-restaurantes";
+			path = "Target Support Files/Pods-smart-menu-restaurantes";
+			sourceTree = "<group>";
+		};
+		6CCAB695D374472FA8DD58BAB5DF0FCD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6711DBD8EEF8FBFCC0D3E898D4E8B42A /* Pods-smart-menu-restaurantes */,
+				4D9BF63006DDF395B3CB8EDD8074287A /* Pods-smart-menu-restaurantesTests */,
+				C1F2325BA15D281AAC7CA671F8F1ED11 /* Pods-smart-menu-restaurantesUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6DF24AD40FE0074F3086FC1C268193A0 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				72A2009C88D20068E979BF2FE433BBC3 /* IQBarButtonItem.h */,
+				F9C96ECE8F57B7B8F7E16C05D6AC5141 /* IQBarButtonItem.m */,
+				F620B10ACC301D591321239DE5C5585A /* IQKeyboardManager.h */,
+				3DFEFBC1456562F2B7AC882A34458B23 /* IQKeyboardManager.m */,
+				1923E3B3B0059A4D7C792C498F613D12 /* IQKeyboardManagerConstants.h */,
+				A123A7C21D223995628002FE85B59427 /* IQKeyboardManagerConstantsInternal.h */,
+				8F007DB53502FA0B78528614EFEB90E6 /* IQKeyboardReturnKeyHandler.h */,
+				845E83021411D8A84BAFEC3E9529BC34 /* IQKeyboardReturnKeyHandler.m */,
+				A3682D2EBDA1F03F6724B77328D5848C /* IQNSArray+Sort.h */,
+				AE7691788432BF44D97631358BB27639 /* IQNSArray+Sort.m */,
+				0B89E15A1692CFB7F13FE4474835E77E /* IQPreviousNextView.h */,
+				99D4CB7C89EC405CCD81D392DF120BC9 /* IQPreviousNextView.m */,
+				4A4BF5F033196BBCD200B0FBCCCB0DDE /* IQTextView.h */,
+				21988ADEA33E6274B47D763CFC1AB575 /* IQTextView.m */,
+				353CD303AEE0FE505D75C70F9D410925 /* IQTitleBarButtonItem.h */,
+				1895D4FB6D4B266B01B2CAFADC364F06 /* IQTitleBarButtonItem.m */,
+				F448A08741145E2E42F719DBF74410F6 /* IQToolbar.h */,
+				A3692BACD36CA6C86AEE0BB0B52408C2 /* IQToolbar.m */,
+				D6106194AC32593D71B02E73992DA012 /* IQUIScrollView+Additions.h */,
+				602262919F118E9A6666D4C59EC2A778 /* IQUIScrollView+Additions.m */,
+				87B9FD0D84429B37A1D195C2AB006EB3 /* IQUITextFieldView+Additions.h */,
+				F6E5DB46A0074445B2E920F552BB6C10 /* IQUITextFieldView+Additions.m */,
+				51DB6EF8D82ED3172B57E42348C969EB /* IQUIView+Hierarchy.h */,
+				04DDE3B15B3ABA44441F909D962CFD4E /* IQUIView+Hierarchy.m */,
+				0226B4BE1F4E82158327D412B1E1747E /* IQUIView+IQKeyboardToolbar.h */,
+				35E0AF54F33BDD93CAE43E150321498F /* IQUIView+IQKeyboardToolbar.m */,
+				D09A241BF408B309610B0AB9CAFA8280 /* IQUIViewController+Additions.h */,
+				F946C83AA93D411E3D74C617A029920A /* IQUIViewController+Additions.m */,
+				A57331D38ACFA45B4B93B0CAE76E0E26 /* Resources */,
+				B153060952B60C97AE84D4FF5E0C8E67 /* Support Files */,
+			);
+			name = IQKeyboardManager;
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		7FD3658820B36EC9121B795F599F04B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B03AC1273EA17B8054065F631EDBF24 /* Alamofire.modulemap */,
+				3801F0DBD0227D3AA6905D2FC0A44F0B /* Alamofire.xcconfig */,
+				3D3CD5B85011745A88B6B025B107518B /* Alamofire-dummy.m */,
+				02C8964BE6EEC9605ED4CB5E7A0A8B9A /* Alamofire-Info.plist */,
+				34601421B905644507DFFEC2A12CE38C /* Alamofire-prefix.pch */,
+				4E254D506322CD70FB69CD2E136995E4 /* Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		857F3999CE9DA1ED56EA1B72431DFBFD /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				91648AF9D1A0F7B9334557A6375BAF91 /* SwiftyJSON.swift */,
+				09C0BC296618B45CF85F56835DAB8589 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		A09ABB6D0EC48099A020145EE4A4F249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64174280627B9AF6007D1C31EBD7B0A1 /* Alamofire.framework */,
+				55682B88190CB596E9CBA75B9E2FA55E /* IQKeyboardManager.framework */,
+				0C2F6950D74C5DE7DB9E18A87E85DD08 /* Pods_smart_menu_restaurantes.framework */,
+				781D2FA37A37E915B26266DDE6CFA2AB /* Pods_smart_menu_restaurantesTests.framework */,
+				DB5DCBA56ADCE44E0388300819D0E932 /* Pods_smart_menu_restaurantesUITests.framework */,
+				3C1532D0172D0D1693AA66060020313E /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A57331D38ACFA45B4B93B0CAE76E0E26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4689E1BC2C3654B97EA0A76BA8B138C /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B153060952B60C97AE84D4FF5E0C8E67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C195730AEE609BC030874DB36A72A5D /* IQKeyboardManager.modulemap */,
+				54E0D5D3B04EF690BD601DF0E5C8C86D /* IQKeyboardManager.xcconfig */,
+				D2F21C42E630E2FC3D98EA21AD822E4B /* IQKeyboardManager-dummy.m */,
+				C3BAE6EDEDE485B04A4ABCC30C63239A /* IQKeyboardManager-Info.plist */,
+				22065C45F29B162BF9B76305F1C9224E /* IQKeyboardManager-prefix.pch */,
+				8338F8E923C4832B68135EC7064F15E5 /* IQKeyboardManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD35F57B08FA07466EF52BE52CC46A1D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1F2325BA15D281AAC7CA671F8F1ED11 /* Pods-smart-menu-restaurantesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B27D52124816ACBA670E628E8425DAB6 /* Pods-smart-menu-restaurantesUITests.modulemap */,
+				AA6C11041FA337F69022D37837B29163 /* Pods-smart-menu-restaurantesUITests-acknowledgements.markdown */,
+				4EB30555AE27A17DE00C82292692C67C /* Pods-smart-menu-restaurantesUITests-acknowledgements.plist */,
+				93A2429D96C33ABF83A048FBE23702EF /* Pods-smart-menu-restaurantesUITests-dummy.m */,
+				791EFB41DA1674E1114B089F94C3B8A2 /* Pods-smart-menu-restaurantesUITests-Info.plist */,
+				EB41810C224FEE72540BAA16C3F2AB94 /* Pods-smart-menu-restaurantesUITests-umbrella.h */,
+				19DF6DDF6A99F2E78DDF170AB71E97CC /* Pods-smart-menu-restaurantesUITests.debug.xcconfig */,
+				EA165882F3C51848F3899233F9C497F7 /* Pods-smart-menu-restaurantesUITests.release.xcconfig */,
+			);
+			name = "Pods-smart-menu-restaurantesUITests";
+			path = "Target Support Files/Pods-smart-menu-restaurantesUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				F51E15AD11E8654236A7F60E8885F0D5 /* Pods */,
+				A09ABB6D0EC48099A020145EE4A4F249 /* Products */,
+				6CCAB695D374472FA8DD58BAB5DF0FCD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD35F57B08FA07466EF52BE52CC46A1D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */,
+				4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */,
+				30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */,
+				1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F51E15AD11E8654236A7F60E8885F0D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				517B63F8BEA833ABF88C6C4863986C79 /* Alamofire */,
+				6DF24AD40FE0074F3086FC1C268193A0 /* IQKeyboardManager */,
+				857F3999CE9DA1ED56EA1B72431DFBFD /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23D70D9651451F43E7E8CC1A87B4B7E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F6E4CC26451E91B59FAE0F6841DC1F /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53184CD7D98DD598D51AA6DD961306AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB716F20FA819621DF25E3E4556FA6B /* Pods-smart-menu-restaurantesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED69FF21B0AF7477101869101BC22EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49E1DB430E1A451BBDE299166CCDF3C /* IQBarButtonItem.h in Headers */,
+				4704532EBB5B25DCD6AAD3F4DF99C65F /* IQKeyboardManager-umbrella.h in Headers */,
+				9E70FAB137D127A55A1841B8F739664B /* IQKeyboardManager.h in Headers */,
+				7EE8D883EFC48DA04B612B3EC380F11C /* IQKeyboardManagerConstants.h in Headers */,
+				15CFFF1B6912CF0A4A9FC87177313F49 /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				2E9B698B64CD7E527A270F3323A253A1 /* IQKeyboardReturnKeyHandler.h in Headers */,
+				8F9F7188D5376303A8B68C7C12621AD7 /* IQNSArray+Sort.h in Headers */,
+				CC1D5F1C09C4C1BD14278F7E549663BA /* IQPreviousNextView.h in Headers */,
+				F0F69E7297420DDEA6EE2915D5EF58CA /* IQTextView.h in Headers */,
+				480AC3F85973AEA32D555B23C0ACE2D3 /* IQTitleBarButtonItem.h in Headers */,
+				34E0A7436BBBE95F85332D24C64FFCFD /* IQToolbar.h in Headers */,
+				CDCA9F7230128C4D0E0B39D8737E0489 /* IQUIScrollView+Additions.h in Headers */,
+				5E53DC072ACDDF44EAEB8EDD54D0B563 /* IQUITextFieldView+Additions.h in Headers */,
+				9B6A2EA62AA29811BC0A0DCC64DA8E5F /* IQUIView+Hierarchy.h in Headers */,
+				32AA6E4445E55DA5C2BDA600AB510771 /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				01C9FBB8BBCD0CDAF35A5F4B399F4141 /* IQUIViewController+Additions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE89476E3404E8B616A9DE8F234069B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E58C345D7EA82F8B5DAC3B7970B357 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFF5FE012677FCD659BB99E1415487D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65F2FE203594073F5E17979B1FEE418 /* Pods-smart-menu-restaurantes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE61BABCBEC33347271C327397107AD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7A699E07DB8A410D99562D92249DC0 /* Pods-smart-menu-restaurantesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E0537A20627C7A30E67FCF76301D5D8 /* IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 343F0B64D298DDF8E3A885807AF155D6 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */;
+			buildPhases = (
+				7ED69FF21B0AF7477101869101BC22EC /* Headers */,
+				DB3F3B04BA4238AE82C1B9FC5B58D1EE /* Sources */,
+				4DEFE49E2DCA6955E27028BC6D1092F2 /* Frameworks */,
+				B146FD359A413CCD8170199E58E97DD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManager;
+			productName = IQKeyboardManager;
+			productReference = 55682B88190CB596E9CBA75B9E2FA55E /* IQKeyboardManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		290E381460EF64221767DFFF13650171 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B8AED7D0EE430B12A9CAE5CD6984F02 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				8FE89476E3404E8B616A9DE8F234069B /* Headers */,
+				2BE5517C289D25B3E718DC7CF4CF577A /* Sources */,
+				DB7C3C95124A3552F70FCA085BC3D006 /* Frameworks */,
+				A2317DC328164FB6166B70ACFAEC6A26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 3C1532D0172D0D1693AA66060020313E /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3383968E74B5371B20BB519B170DC7FD /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E87124444A44B7DB55208E7FEC21D331 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				23D70D9651451F43E7E8CC1A87B4B7E9 /* Headers */,
+				A1C8B029F600160149A2404C342F6E50 /* Sources */,
+				F1626ADC3A7EC435D2722B3173355D36 /* Frameworks */,
+				28FF73341543B6F0A7DF3C20CFFEA0AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 64174280627B9AF6007D1C31EBD7B0A1 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C54719672102F0948B0AE7F461B3033 /* Pods-smart-menu-restaurantes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9AD614D9C515F5066391A996B2B818D /* Build configuration list for PBXNativeTarget "Pods-smart-menu-restaurantes" */;
+			buildPhases = (
+				BFF5FE012677FCD659BB99E1415487D3 /* Headers */,
+				7804F5CF7583D153D4488B36748E3C40 /* Sources */,
+				23A795610BECAEFC9CEB98294E0A39C8 /* Frameworks */,
+				F0B22CFBBF0A27A444757CD0DDEA0484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE141B690F32C8B8EA33E9C9E499C781 /* PBXTargetDependency */,
+				212FCE1F81758E27A0DBEEEB8917F474 /* PBXTargetDependency */,
+				62F4CF8E1EB7E49DB102EC68CBCDCD29 /* PBXTargetDependency */,
+			);
+			name = "Pods-smart-menu-restaurantes";
+			productName = "Pods-smart-menu-restaurantes";
+			productReference = 0C2F6950D74C5DE7DB9E18A87E85DD08 /* Pods_smart_menu_restaurantes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDA350AAD8D358A1BB14A3BBE7200F5B /* Pods-smart-menu-restaurantesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00FA2AD542958B927AF1687B354AAB4F /* Build configuration list for PBXNativeTarget "Pods-smart-menu-restaurantesUITests" */;
+			buildPhases = (
+				DE61BABCBEC33347271C327397107AD0 /* Headers */,
+				592034FC2940B8422B91F2D2DA28C284 /* Sources */,
+				638E41BFDEFA96C2C841F1D848FA8968 /* Frameworks */,
+				B4772A49318A2BE8AA80713F7B82C9BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29D974F366857871A2D59B17744990A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-smart-menu-restaurantesUITests";
+			productName = "Pods-smart-menu-restaurantesUITests";
+			productReference = DB5DCBA56ADCE44E0388300819D0E932 /* Pods_smart_menu_restaurantesUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D891DB9A04B3D0A2680CBB74E11F17ED /* Pods-smart-menu-restaurantesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74AB5C4A79B4027B4AEE6FC01EFDFD92 /* Build configuration list for PBXNativeTarget "Pods-smart-menu-restaurantesTests" */;
+			buildPhases = (
+				53184CD7D98DD598D51AA6DD961306AF /* Headers */,
+				F41CAC71058A0ADFDF0318B94E3EC0E8 /* Sources */,
+				70159AEC81EB23F47A57AD2DA9C10048 /* Frameworks */,
+				BE3F2C5CC2F6ED4056D4D0326F14A479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F33A9F83B5B543ECE11F81CA008B1EF /* PBXTargetDependency */,
+			);
+			name = "Pods-smart-menu-restaurantesTests";
+			productName = "Pods-smart-menu-restaurantesTests";
+			productReference = 781D2FA37A37E915B26266DDE6CFA2AB /* Pods_smart_menu_restaurantesTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A09ABB6D0EC48099A020145EE4A4F249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3383968E74B5371B20BB519B170DC7FD /* Alamofire */,
+				1E0537A20627C7A30E67FCF76301D5D8 /* IQKeyboardManager */,
+				4C54719672102F0948B0AE7F461B3033 /* Pods-smart-menu-restaurantes */,
+				D891DB9A04B3D0A2680CBB74E11F17ED /* Pods-smart-menu-restaurantesTests */,
+				CDA350AAD8D358A1BB14A3BBE7200F5B /* Pods-smart-menu-restaurantesUITests */,
+				290E381460EF64221767DFFF13650171 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28FF73341543B6F0A7DF3C20CFFEA0AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2317DC328164FB6166B70ACFAEC6A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B146FD359A413CCD8170199E58E97DD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59636A595CA6A792AC74DCACF1C24A22 /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4772A49318A2BE8AA80713F7B82C9BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3F2C5CC2F6ED4056D4D0326F14A479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B22CFBBF0A27A444757CD0DDEA0484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE5517C289D25B3E718DC7CF4CF577A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B542035D10F64D29C733ACB08036D0C /* SwiftyJSON-dummy.m in Sources */,
+				1B7E8964B88BC6250C142A3989723EFE /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		592034FC2940B8422B91F2D2DA28C284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D24BE6255AF90B6F64B07CFA6BEA3925 /* Pods-smart-menu-restaurantesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7804F5CF7583D153D4488B36748E3C40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5965A6464373095B0A10A572FAE971D3 /* Pods-smart-menu-restaurantes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C8B029F600160149A2404C342F6E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3538A6992A38276764936A9733493D /* AFError.swift in Sources */,
+				772911DA6E33D1CBBC30131B7C8BDBB3 /* Alamofire-dummy.m in Sources */,
+				0A39AF55285A3A4F7CBABB6D822FA4A3 /* Alamofire.swift in Sources */,
+				3E0749AF6C51BCF0E4A41CF1D6A76FED /* DispatchQueue+Alamofire.swift in Sources */,
+				AEA829AB1A8AF2AD077A808AED6B178A /* MultipartFormData.swift in Sources */,
+				73AB05789A4982944AF68DBD013E3EB7 /* NetworkReachabilityManager.swift in Sources */,
+				1D29D2ACADF961F69D32B06FA6A09E28 /* Notifications.swift in Sources */,
+				700D3D95AF9520CB227846DFD943A2DA /* ParameterEncoding.swift in Sources */,
+				355C18EEC82624A06A6CC93965258E33 /* Request.swift in Sources */,
+				059D92B7BBFBEC53E9A3B6E11C5C3B3A /* Response.swift in Sources */,
+				6EFD003458AE7F689DEA720A2030C261 /* ResponseSerialization.swift in Sources */,
+				EB0DD8CEA1A69867A30267439C970440 /* Result.swift in Sources */,
+				8D2A6A90A6DDAF75EA52D471258545CC /* ServerTrustPolicy.swift in Sources */,
+				A1EC41966B261DCE460BCDE5124A1DBE /* SessionDelegate.swift in Sources */,
+				D3FA0AA634AAEA99AB3FABC36BB4958C /* SessionManager.swift in Sources */,
+				77E8F0EB9FFBE2E3EB0C77095C644606 /* TaskDelegate.swift in Sources */,
+				60B6C2A003864AAD3A426448152F67BE /* Timeline.swift in Sources */,
+				AA56769D8733D3F3E7976742D5ABA998 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3F3B04BA4238AE82C1B9FC5B58D1EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0858611CF534111166E43492A3E754 /* IQBarButtonItem.m in Sources */,
+				A996F89D3BD4C9E71DDF756A3C245528 /* IQKeyboardManager-dummy.m in Sources */,
+				9259561CF018721E19E2C3A48087D39F /* IQKeyboardManager.m in Sources */,
+				CED5E7B4BE3414AE286AFF69053D6913 /* IQKeyboardReturnKeyHandler.m in Sources */,
+				AA9AF3D263E56AC95AE55D4560913445 /* IQNSArray+Sort.m in Sources */,
+				4C6C22D58D624C082195E2B7B2518584 /* IQPreviousNextView.m in Sources */,
+				CB1F9AB55BC15A210AE933B69E8E4F46 /* IQTextView.m in Sources */,
+				120F590FFAD7554AD1D56D55E4AF1193 /* IQTitleBarButtonItem.m in Sources */,
+				A76D80A2F71C56821F6F13C3787B68BA /* IQToolbar.m in Sources */,
+				93C81D7CCAA0B608DCEFD5C62AC14191 /* IQUIScrollView+Additions.m in Sources */,
+				F258EB026BAB137E64677B793E952659 /* IQUITextFieldView+Additions.m in Sources */,
+				09F255259DEC047AF2BAE4FAF4FA4DF5 /* IQUIView+Hierarchy.m in Sources */,
+				BA6066849A512B018D292C667E952870 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				22213D583E7109C95416724F6BE5A0A1 /* IQUIViewController+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F41CAC71058A0ADFDF0318B94E3EC0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37418C1E96FADE0D61C8484A2ECD6504 /* Pods-smart-menu-restaurantesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		212FCE1F81758E27A0DBEEEB8917F474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManager;
+			target = 1E0537A20627C7A30E67FCF76301D5D8 /* IQKeyboardManager */;
+			targetProxy = 2C818FE904B87ACE2324F481C9B4AE58 /* PBXContainerItemProxy */;
+		};
+		29D974F366857871A2D59B17744990A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-smart-menu-restaurantes";
+			target = 4C54719672102F0948B0AE7F461B3033 /* Pods-smart-menu-restaurantes */;
+			targetProxy = 093E16CFEAFEED349BEB2A50C4751D1F /* PBXContainerItemProxy */;
+		};
+		62F4CF8E1EB7E49DB102EC68CBCDCD29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 290E381460EF64221767DFFF13650171 /* SwiftyJSON */;
+			targetProxy = A0F32C5A1FBB3266B6B75776B2428D06 /* PBXContainerItemProxy */;
+		};
+		6F33A9F83B5B543ECE11F81CA008B1EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-smart-menu-restaurantes";
+			target = 4C54719672102F0948B0AE7F461B3033 /* Pods-smart-menu-restaurantes */;
+			targetProxy = A2E98BFAD491A32D2C210A2D161B18D4 /* PBXContainerItemProxy */;
+		};
+		EE141B690F32C8B8EA33E9C9E499C781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 3383968E74B5371B20BB519B170DC7FD /* Alamofire */;
+			targetProxy = 3A5E9F7D9F200F18D3FCEA7723D2BA81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03A5A992EC87A0D834F7D5300D7E6D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A36174FA625FD396BBF13E6B43370825 /* Pods-smart-menu-restaurantesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smart-menu-restaurantesTests/Pods-smart-menu-restaurantesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smart-menu-restaurantesTests/Pods-smart-menu-restaurantesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		07981071531E635575CF5EB04CE9EF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F51B8D35B848E0F8AC4143ECA6FEBF /* Pods-smart-menu-restaurantes.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smart-menu-restaurantes/Pods-smart-menu-restaurantes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smart-menu-restaurantes/Pods-smart-menu-restaurantes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2665828D04F10F2ADA7A0C78390EBC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010324CAA366ABF9839F2F7F00E59557 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		38A8DB19295765B3A90AF7FA7E19FE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA165882F3C51848F3899233F9C497F7 /* Pods-smart-menu-restaurantesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smart-menu-restaurantesUITests/Pods-smart-menu-restaurantesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smart-menu-restaurantesUITests/Pods-smart-menu-restaurantesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4129F1AD40A2E55F21FB85466764C2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E0D5D3B04EF690BD601DF0E5C8C86D /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6848AC67EED75A7CF8168F72F8862A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010324CAA366ABF9839F2F7F00E59557 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyJSON;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95D1AA5EC0448C2CA1E25DF11469E840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E0D5D3B04EF690BD601DF0E5C8C86D /* IQKeyboardManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManager/IQKeyboardManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManager/IQKeyboardManager.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManager;
+				PRODUCT_NAME = IQKeyboardManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9CF36E6AA46D597086D835E1724A4D87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3801F0DBD0227D3AA6905D2FC0A44F0B /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B914025A518B53556696F19D8D477057 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3801F0DBD0227D3AA6905D2FC0A44F0B /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E61214BC4B62BF1CF8AF536807D865B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A89F3A0C7F9067134A3B69A774E214 /* Pods-smart-menu-restaurantes.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smart-menu-restaurantes/Pods-smart-menu-restaurantes-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smart-menu-restaurantes/Pods-smart-menu-restaurantes.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E849F1805EDE0B185C8153658C7511A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4603456804F12B34D218930637BB77 /* Pods-smart-menu-restaurantesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smart-menu-restaurantesTests/Pods-smart-menu-restaurantesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smart-menu-restaurantesTests/Pods-smart-menu-restaurantesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFD641CC46703A7F8216817E9D03AD8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DF6DDF6A99F2E78DDF170AB71E97CC /* Pods-smart-menu-restaurantesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-smart-menu-restaurantesUITests/Pods-smart-menu-restaurantesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-smart-menu-restaurantesUITests/Pods-smart-menu-restaurantesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00FA2AD542958B927AF1687B354AAB4F /* Build configuration list for PBXNativeTarget "Pods-smart-menu-restaurantesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD641CC46703A7F8216817E9D03AD8B /* Debug */,
+				38A8DB19295765B3A90AF7FA7E19FE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B8AED7D0EE430B12A9CAE5CD6984F02 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2665828D04F10F2ADA7A0C78390EBC06 /* Debug */,
+				6848AC67EED75A7CF8168F72F8862A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		343F0B64D298DDF8E3A885807AF155D6 /* Build configuration list for PBXNativeTarget "IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4129F1AD40A2E55F21FB85466764C2B3 /* Debug */,
+				95D1AA5EC0448C2CA1E25DF11469E840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74AB5C4A79B4027B4AEE6FC01EFDFD92 /* Build configuration list for PBXNativeTarget "Pods-smart-menu-restaurantesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A5A992EC87A0D834F7D5300D7E6D8A /* Debug */,
+				E849F1805EDE0B185C8153658C7511A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9AD614D9C515F5066391A996B2B818D /* Build configuration list for PBXNativeTarget "Pods-smart-menu-restaurantes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61214BC4B62BF1CF8AF536807D865B2 /* Debug */,
+				07981071531E635575CF5EB04CE9EF63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E87124444A44B7DB55208E7FEC21D331 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B914025A518B53556696F19D8D477057 /* Debug */,
+				9CF36E6AA46D597086D835E1724A4D87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
